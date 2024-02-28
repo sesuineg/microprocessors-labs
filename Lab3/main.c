@@ -36,7 +36,7 @@ void TimerInit() {
     TIM_TimeBaseInitTypeDef time_init;
     TIM_OCInitTypeDef oc_init;
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
-    uint16_t PrescalerValue = (uint16_t) ((SystemCoreClock / 2) / 21000000);
+    uint16_t PrescalerValue = (uint16_t)((SystemCoreClock / 2) / 21000000);
     time_init.TIM_Period = 665;
     time_init.TIM_Prescaler = PrescalerValue;
     time_init.TIM_ClockDivision = 0;
@@ -73,5 +73,8 @@ void GPIOinit() {
     gpio_init.GPIO_OType = GPIO_OType_PP;
     gpio_init.GPIO_PuPd = GPIO_PuPd_UP;
     GPIO_Init(GPIOD, &gpio_init);
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource12, GPIO_AF_TIM4);
     GPIO_PinAFConfig(GPIOD, GPIO_PinSource13, GPIO_AF_TIM4);
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource14, GPIO_AF_TIM4);
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource15, GPIO_AF_TIM4);
 }

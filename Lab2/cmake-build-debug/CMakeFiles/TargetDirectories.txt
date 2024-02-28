@@ -1,0 +1,3 @@
+C:/CooCox/CoIDE/workspace/Lab2/cmake-build-debug/CMakeFiles/Lab1_1.dir
+C:/CooCox/CoIDE/workspace/Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CooCox/CoIDE/workspace/Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

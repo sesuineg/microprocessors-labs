@@ -1,0 +1,9 @@
+# ninja log v5
+8	833	7308188402988495	CMakeFiles/Lab1_1.dir/cmsis_boot/system_stm32f4xx.c.obj	efb9ad471eab165d
+18	881	7308188403488488	CMakeFiles/Lab1_1.dir/cmsis_lib/source/stm32f4xx_rcc.c.obj	62ca1c34276b01ca
+34	1886	7308210405513585	CMakeFiles/Lab1_1.dir/main.c.obj	44bdeb1ec0107583
+8	2024	7308210406889871	CMakeFiles/Lab1_1.dir/cmsis_lib/source/stm32f4xx_gpio.c.obj	94fef0d5f3775e5f
+10	121	7308211553881618	CMakeFiles/Lab1_1.dir/main.c.obj	44bdeb1ec0107583
+9	100	7308212958630533	CMakeFiles/Lab1_1.dir/main.c.obj	44bdeb1ec0107583
+10	93	7308222820442768	CMakeFiles/Lab1_1.dir/main.c.obj	44bdeb1ec0107583
+10	108	7308223523489470	CMakeFiles/Lab1_1.dir/main.c.obj	44bdeb1ec0107583
